@@ -10,7 +10,9 @@ print("starting up...")
 time.sleep(3)
 
 name = input("What is your username?")
-pw = input ("What is the password?")
+# Per the question, prompting for the password should only happen if the username is correct, 
+# Please correct this. See me for a hint.
+pw = input ("What is the password?") 
 
 if name == username:
     if pw == password:
