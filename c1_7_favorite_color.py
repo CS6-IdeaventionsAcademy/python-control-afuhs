@@ -12,7 +12,8 @@ time.sleep(1)
 print ("Good luck!")
 
 color = input ("What is your guess? ")
-
+# RCH: You should repeat asking for a color until the correct color is given
+# Hint: you can use a while loop to do this.  See me if you need help.
 if color == my_favorite_color:
     print ("Me too! What a coincidence!")
 else:
